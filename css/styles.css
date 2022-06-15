@@ -1,0 +1,251 @@
+/* HOME */
+
+/* body */
+
+.body {
+  font-family: "Roboto", "sans-serif";
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+:root {
+  --basic-font-family: "Roboto";
+
+  --basiс-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --third-background-color: #2196f3;
+
+  --basiс-color: #757575;
+  --secondary-color: black;
+  --third-color: #2196f3;
+  --final-color: #ffffff;
+}
+
+/* <!--header--> */
+
+.Logo,
+.web {
+  color: var(--secondary-color);
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+}
+
+.web {
+  color: var(--third-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* site nav */
+
+.site-nav,
+.link,
+.filter {
+  color: var(--secondary-color);
+}
+
+.current-link {
+  color: var(--third-color);
+}
+
+.link:hover,
+.link:focus,
+.contacts-mail:hover,
+.contacts-mail:focus,
+.contacts-tel:hover,
+.contacts-tel:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--third-color);
+}
+
+.link {
+  font-family: var(--basic-font-family);
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* contact */
+
+.contacts-mail,
+.contacts-tel {
+  color: var(--basiс-color);
+
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Main */
+
+/* section hero */
+.section-hero,
+.footer {
+  background-color: var(--basiс-background-color);
+}
+
+.titel {
+  font-family: var(--basic-font-family);
+  color: var(--final-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  font-family: var(--basic-font-family);
+  background-color: var(--third-background-color);
+  color: var(--final-color);
+
+  cursor: pointer;
+  display: flex;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* section advantage */
+.advantage {
+  font-family: var(--basic-font-family);
+  color: var(--secondary-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-text {
+  font-family: var(--basic-font-family);
+  color: var(--basiс-color);
+
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* section work and team */
+.title-work,
+.title-team {
+  font-family: var(--basic-font-family);
+  color: var(--secondary-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.section-team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-user {
+  font-family: var(--basic-font-family);
+  color: var(--secondary-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.user-prof {
+  font-family: var(--basic-font-family);
+  color: var(--basiс-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+.studio {
+  color: var(--final-color);
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address {
+  font-family: var(--basic-font-family);
+  color: var(--final-color);
+
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.mail,
+.tel {
+  font-family: var(--basic-font-family);
+  color: var(--basiс-color);
+
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+/* PORTFOLIO */
+
+/* section filter */
+
+.filter {
+  font-family: var(--basic-font-family);
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+
+  border: none;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--third-background-color);
+  color: var(--final-color);
+}
+
+.filter-title {
+  font-family: var(--basic-font-family);
+  color: var(--secondary-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filter-chapter {
+  font-family: var(--basic-font-family);
+  color: var(--basiс-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+/* Продолжение следует .... */
